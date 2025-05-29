@@ -7,11 +7,11 @@ h1{
     color: black;
 }
 h2{
-    text-align: start;
+    text-align:start;
     color: black;
 }
 h3{
-    text-align: start;
+    text-align:start;
     color: darkslategray;
 }
 p{
@@ -25,5 +25,5 @@ p{
   border-radius: 5px;
 }
 .cabeçalho{
-    background-color: lightgreen;
+    background-color: rgb(0, 0, 0);
 }
