@@ -6,3 +6,15 @@ h1{
     font-style:normal;
     color: black;
 }
+h2{
+    text-align: start;
+    color: black;
+}
+h3{
+    text-align: start;
+    color: darkslategray;
+}
+p{
+    text-align: justify;
+    color:darkslategrey
+}
