@@ -1,74 +1,70 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #2c3e50;
-    color: white;
-    padding: 20px;
-    text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.info-section {
-    background-image: url('https://via.placeholder.com/1200x400');
-    background-size: cover;
-    background-position: center;
-    color: palegreen;
-    padding: 100px 20px;
-    text-align: center;
-    transition: color 0.3s ease;
+.search-bar input {
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
 }
 
-.info-section:hover {
-    color: #ffffff;
+.profile-menu {
+  background-color: #555;
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
-.caixas {
-    display: flex;
-    justify-content: space-around;
-    padding: 40px 20px;
-    background-color: #ecf0f1;
-    flex-wrap: wrap;
+.hero {
+  background: url('https://via.placeholder.com/1200x300') no-repeat center center/cover;
+  text-align: center;
+  color: white;
+  padding: 60px 20px;
 }
 
-.caixa {
-    width: 45%;
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
+.hero h1 {
+  font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
 
-.caixa h2 {
-    margin-top: 0;
-    transition: all 0.3s ease;
+.content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  gap: 20px;
 }
 
-.caixa h2:hover {
-    color: #2980b9;
-    transform: scale(1.05);
+.box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, color 0.3s;
+  cursor: pointer;
 }
 
-.caixa p {
-    transition: color 0.3s ease;
-}
-
-.caixa p:hover {
-    color: #16a085;
+.box:hover {
+  transform: scale(1.05);
+  color: #007BFF;
 }
 
 footer {
-    background-color: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-}
-
-@media (max-width: 768px) {
-    .caixa {
-        width: 100%;
-    }
-}
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;}
