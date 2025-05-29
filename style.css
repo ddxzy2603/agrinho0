@@ -14,9 +14,14 @@ header {
     background-image: url('https://via.placeholder.com/1200x400');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: palegreen;
     padding: 100px 20px;
     text-align: center;
+    transition: color 0.3s ease;
+}
+
+.info-section:hover {
+    color: #ffffff;
 }
 
 .caixas {
@@ -38,6 +43,20 @@ header {
 
 .caixa h2 {
     margin-top: 0;
+    transition: all 0.3s ease;
+}
+
+.caixa h2:hover {
+    color: #2980b9;
+    transform: scale(1.05);
+}
+
+.caixa p {
+    transition: color 0.3s ease;
+}
+
+.caixa p:hover {
+    color: #16a085;
 }
 
 footer {
@@ -46,4 +65,10 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .caixa {
+        width: 100%;
+    }
 }
